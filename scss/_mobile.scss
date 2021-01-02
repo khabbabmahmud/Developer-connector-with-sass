@@ -1,0 +1,69 @@
+@media(max-width: 700px){
+.container{
+    margin-top:8rem;
+}
+
+.hide-sm{
+    display:none;
+}
+// Navbar
+.navbar{
+    display: block;
+    text-align:center;
+    h1{
+        margin-bottom:.2rem;
+    }
+    ul{
+        justify-content:center;
+    }
+}
+
+.dash-buttons a{
+    display:block;
+    width:100%;
+    margin-bottom:0.2rem;
+}
+
+// Font size
+.x-large {
+	font-size: 3rem;
+	line-height: 4rem;
+}
+.large{
+    font-size: 2rem;
+    text-align:center;
+}
+.lead{
+    font-size: 1rem;
+}
+
+//Profiles
+.profile{
+    grid-template-columns:auto;
+    text-align:center;
+    ul{
+        display:none;
+    }
+}
+
+.profile-grid{
+    grid-template-areas:'top top' 'about about' 'exp exp' 'edu edu' 'github github';
+}
+
+.profile-about{
+    .skills{
+        flex-direction:column;
+    }
+}
+
+.post{
+    grid-template-columns: auto;
+
+    a, button{
+        padding:0.3rem 0.4rem;
+    }
+}
+
+
+
+}
